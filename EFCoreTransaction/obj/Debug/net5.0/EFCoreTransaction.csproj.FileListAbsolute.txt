@@ -27,6 +27,7 @@ D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsof
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.OpenApi.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -36,6 +37,9 @@ D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsof
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\System.Composition.AttributedModel.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\System.Composition.Convention.dll
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\System.Composition.Hosting.dll
@@ -117,6 +121,7 @@ D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTr
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.AssemblyInfoInputs.cache
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.AssemblyInfo.cs
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.csproj.CoreCompileInputs.cache
+D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.MvcApplicationPartsAssemblyInfo.cs
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.MvcApplicationPartsAssemblyInfo.cache
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\scopedcss\bundle\EFCoreTransaction.styles.css
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\staticwebassets\EFCoreTransaction.StaticWebAssets.Manifest.cache
@@ -127,8 +132,3 @@ D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\refint\E
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.pdb
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.genruntimeconfig.cache
 D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\ref\EFCoreTransaction.dll
-D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Development_Git\EFCoreTransaction\EFCoreTransaction\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Development_Git\EFCoreTransaction\EFCoreTransaction\obj\Debug\net5.0\EFCoreTransaction.MvcApplicationPartsAssemblyInfo.cs

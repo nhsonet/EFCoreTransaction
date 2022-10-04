@@ -9,11 +9,11 @@ namespace EFCoreTransaction.Infrastructure.Interfaces
         public IStudentRepository StudentRepository { get; set; }
         public ICourseRepository CourseRepository { get; set; }
 
-        Task<int> SaveEntityAsync();
-
         Task<IDbContextTransaction> BeginEntityTransactionAsync();
 
         void RollbackEntityTransactionAsync();
+
+        Task<int> CommitEntityTransactionAsync();
 
     }
 }

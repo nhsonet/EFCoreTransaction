@@ -20,36 +20,41 @@ namespace EFCoreTransaction.Controllers
         [HttpGet("testTransaction")]
         public async Task<IActionResult> TestTransaction()
         {
-            var transaction = _unitOfWork.BeginEntityTransactionAsync();
+            //var transaction = _unitOfWork.BeginEntityTransactionAsync();
 
             try
             {
                 var objStudent = new Student();
-                objStudent.Name = "BBB";
+                objStudent.Name = "test student";
                 objStudent.CreatedAt = DateTime.Now;
                 objStudent.IsActive = true;
 
                 var objCourse = new Course();
-                objCourse.Name = "BBB";
+                objCourse.Name = "test course";
                 objCourse.CreatedAt = DateTime.Now;
                 objCourse.IsActive = true;
 
                 await _unitOfWork.StudentRepository.AddAsync(objStudent);
+
+                //DO some work
+
+                //int errorValue = Convert.ToInt32("");
+
                 await _unitOfWork.CourseRepository.AddAsync(objCourse);
 
-                var resultCount = await _unitOfWork.SaveEntityAsync();
+                var resultCount = await _unitOfWork.CommitEntityTransactionAsync();
 
-                //var isCompleted = transaction.IsCompleted;
-                var result = transaction.Result;
+                //var transactionIsCompleted = transaction.IsCompleted;
+                //var transactionResult = transaction.Result;
 
-                return Ok(200);
+                return Ok(200);     //used for simplification
             }
             catch (Exception ex)
             {
-                //var isFaulted = transaction.IsFaulted;
-                _unitOfWork.RollbackEntityTransactionAsync();
+                //var transactionIsFaulted = transaction.IsFaulted;
+                //_unitOfWork.RollbackEntityTransactionAsync();
 
-                return Ok(400);
+                return Ok(400);     //used for simplification
             }
         }
 

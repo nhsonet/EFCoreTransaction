@@ -60,7 +60,7 @@ namespace EFCoreTransaction.Controllers
             }
 
             await _unitOfWork.StudentRepository.UpdateAsync(student);
-            await _unitOfWork.SaveEntityAsync();
+            await _unitOfWork.CommitEntityTransactionAsync();
 
             return Ok(200);
         }
@@ -70,7 +70,7 @@ namespace EFCoreTransaction.Controllers
         public async Task<ActionResult<Student>> PostStudent(Student student)
         {
             await _unitOfWork.StudentRepository.AddAsync(student);
-            await _unitOfWork.SaveEntityAsync();
+            await _unitOfWork.CommitEntityTransactionAsync();
 
             return Ok(200);
         }
@@ -86,7 +86,7 @@ namespace EFCoreTransaction.Controllers
             }
 
             await _unitOfWork.StudentRepository.RemoveAsync(result);
-            await _unitOfWork.SaveEntityAsync();
+            await _unitOfWork.CommitEntityTransactionAsync();
 
             return Ok(200);
         }
